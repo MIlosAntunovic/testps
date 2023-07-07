@@ -90,6 +90,10 @@ header{
                     color: var(--pclr);
                     font-size: 12px;
                 }
+                transition: .2s;
+                &:hover{
+                    color: gray;
+                }
             }
             
            }
@@ -627,7 +631,7 @@ footer{
             /* left: -199px; */
             position: absolute;
             right: 0px;
-            background: var(--headerclr);
+            background: var(--bodyback);
             width: 100%;
             padding: 0px 0px;
             li{

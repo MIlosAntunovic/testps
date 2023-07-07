@@ -86,10 +86,14 @@ header .nav-2 ul li a {
   color: var(--h1clr);
   font-size: 16px;
   font-family: Roboto Condensed;
+  transition: 0.2s;
 }
 header .nav-2 ul li a span {
   color: var(--pclr);
   font-size: 12px;
+}
+header .nav-2 ul li a:hover {
+  color: gray;
 }
 
 .video-slider img {
@@ -614,7 +618,7 @@ footer .copyright-footer #poweredby span {
     /* left: -199px; */
     position: absolute;
     right: 0px;
-    background: var(--headerclr);
+    background: var(--bodyback);
     width: 100%;
     padding: 0px 0px;
   }
